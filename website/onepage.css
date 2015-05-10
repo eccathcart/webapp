@@ -3,29 +3,57 @@ html, body {
   padding: 0;
 }
 
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+
 #navigation {
 width: 100%;
-height: 10%;
+height: 7%;
 position: fixed;
+background-color: rgba(39, 39, 39, 0.5);
+text-align: center;
+}
+
+#navigation h1 {
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  text-align: center;
 }
 
 #navigation ul {
+  width: 200px;
   margin: 0;
   padding: 0;
+  text-align: center;
+  display: inline;
 }
 
 #navigation li {
   display: inline;
+  color: white;
+}
+
+#navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#navigation ul li a:hover {
+
 }
 
 .red {
-  background-color: red;
+  background-color: #93C572;
 }
 
 .blue {
-  background-color: blue;
+  background-color: #2E8B57;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #009E60;
 }

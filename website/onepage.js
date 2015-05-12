@@ -1,11 +1,22 @@
 
 // Resizes divs.
+/*
 $(document).ready(function() {
   $(window).resize(function() {
     $('.row').height($(window).height());
   }).resize();
-});
+});*/
 
+/*
+// Make header fixed after scrolling a bit.
+$(window).scroll(function () {
+    if($(window).scrollTop() > $('#navigation').offset().top && !($('#navigation').hasClass('fixed'))){
+    $('#navigation').addClass('fixed');
+    } else if ($(window).scrollTop() == 0){
+    $('#navigation').removeClass('fixed');
+    }
+});
+*/
 // Handle clicks.
 $(document).on('click', '#topdiv', function() {
   $('html, body').animate({

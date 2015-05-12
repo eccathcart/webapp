@@ -1,24 +1,49 @@
+@font-face {
+  font-family: ionIcons;
+  src: url(ionicons.ttf);
+}
+
+@font-face {
+  font-family: robotoSlab;
+  src: url(RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+  font-family: robotoSlabBold;
+  src: url(RobotoSlab-Bold.ttf);
+}
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: robotoSlab;
 }
 
+body p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
 
 #navigation {
 width: 100%;
-height: 7%;
-position: fixed;
-background-color: rgba(39, 39, 39, 0.5);
+height: 70px;
+background-color: #ffffff;
 text-align: center;
 }
 
 #navigation h1 {
+  font-family: robotoSlabBold;
   width: 200px;
   margin: 0;
+  margin-right: 100px;
   padding: 0;
   display: inline;
   text-align: center;
@@ -34,20 +59,40 @@ text-align: center;
 
 #navigation li {
   display: inline;
-  color: white;
+  font-family: ionIcons;
+  margin-right: 20px;
+  font-size: 3em;
+  color: #000000;
 }
 
 #navigation ul li a {
   text-decoration: none;
-  color: white;
+  color: #000000;
 }
 
 #navigation ul li a:hover {
 
 }
 
+.fixed {
+  position: fixed;
+}
+
+#top, #middle, #bottom {
+  height: 600px;
+}
+
+#top p {
+  width: 400px;
+  float: left;
+  color: #ffffff;
+}
+
+#top img {
+float: left;
+}
 .red {
-  background-color: #93C572;
+  background-color: #2d72d9;
 }
 
 .blue {
@@ -56,4 +101,15 @@ text-align: center;
 
 .yellow {
   background-color: #009E60;
+}
+
+#footer {
+  background-color: #013220;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+
+#footer p {
+  padding-top: 25px;
 }

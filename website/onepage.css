@@ -42,44 +42,24 @@ background-color: #ffffff;
 
 #navigation h1 {
   font-family: robotoSlabBold;
-  width: 200px;
-  margin: 0px 100px 0px 100px;
-  padding: 0;
-  display: inline;
-  text-align: left;
-}
-
-#navigation ul {
-  width: 300px;
   margin: 0;
   padding: 0;
-  float: right;
-  display: inline;
-}
-
-#navigation li {
-  display: inline;
-  font-family: ionIcons;
-  margin-right: 40px;
-  font-size: 3em;
-  color: #000000;
-}
-
-#navigation ul li a {
-  text-decoration: none;
-  color: #000000;
-}
-
-#navigation ul li a:hover {
-
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .fixed {
   position: fixed;
 }
 
-#top, #middle, #bottom {
+#top, #middle {
   height: 600px;
+}
+
+#bottom {
+  height: 250px;
 }
 
 #top p {
@@ -92,6 +72,7 @@ background-color: #ffffff;
 #top img {
 float: left;
 }
+
 .red {
   background-color: #2d72d9;
 }
@@ -101,7 +82,10 @@ float: left;
   width: 660px;
   margin-left: auto;
   margin-right: auto;
+}
 
+#getit {
+  padding: 30px 0px 0px 70px;
 }
 
 .blue {
@@ -117,7 +101,7 @@ float: left;
 .circle img{
   width: 150px;
 	height: 150px;
-	background: #B778EA;
+	background: #4F35DD;
 	-moz-border-radius: 75px;
 	-webkit-border-radius: 75px;
 	border-radius: 75px;
@@ -131,17 +115,23 @@ float: left;
 
 .circle p {
   display: block;
-  color: #ffffff;
+  width: 150px;
+  color: #FFFFFF;
 }
 
 #team {
-  height: 500px;
+  height: 100%;
   width: 750px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.header1 h1 {
+  font-family: robotoSlabBold;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 20px 0px 50px 0px;
+  text-align: center;
 }
 
 .yellow {

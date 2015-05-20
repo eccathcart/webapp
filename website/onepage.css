@@ -81,7 +81,7 @@ html, body {
 }
 
 #righttext {
-  width: 220px;
+  width: 210px;
   font-size: 18px;
   color: #C7DDFF;
   font-family: oxygen;
@@ -91,12 +91,12 @@ html, body {
   margin: 60px 150px 0px 0px;
 }
 
-#free {
+/*#free {
   color: #FFFFFF;
   font-family: robotoSlab;
   font-size: 72px;
   line-height: 82px;
-}
+}*/
 
 #middle {
   background-color: #4F35DD;
@@ -127,9 +127,10 @@ html, body {
 }
 
 .circle {
-  display: inline-block;
+  display: block;
   text-align: center;
   width: 230px;
+  float: left;
 }
 
 .circle img{
